@@ -20,7 +20,7 @@ const DownloadBtn: FC = () => {
         'a[title="下载种子"]',
       ) as HTMLAnchorElement | undefined
       if (!originDownloadBtn) {
-        message.error('当前站点不支持,请联系开发者')
+        message.error('当前站点不支持,请联系开发者!')
         return
       }
       const formData = new FormData()
