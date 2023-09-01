@@ -1,6 +1,6 @@
 {
   "name": "pt-helper",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "油猴脚本 pt 网站的好帮手",
   "main": "src/main.js",
   "type": "module",
