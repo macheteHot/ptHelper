@@ -23,5 +23,5 @@
     "tmdb",
     "unocss"
   ],
-  "ignorePaths": ["src/assets/*"]
+  "ignorePaths": ["src/assets/*", "**/*.css"]
 }

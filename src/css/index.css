@@ -1,0 +1,10 @@
+:root {
+  --hover-height: #f1c40f;
+}
+.hover-bg-red:hover {
+  background-color: var(--hover-height) !important;
+}
+
+.hover-bg-red:hover .torrentname tr td {
+  background-color: var(--hover-height) !important;
+}
