@@ -1,6 +1,6 @@
 {
   "name": "tampermonkey-pt-helper",
-  "version": "0.0.6",
+  "version": "0.1.1",
   "description": "油猴脚本 pt 网站的好帮手",
   "main": "src/main.js",
   "type": "module",
@@ -24,7 +24,7 @@
   },
   "author": "Machete <rtpppp163@gmail.com>",
   "files": [
-    "dist/bundle.js"
+    "dist"
   ],
   "sideEffects": false,
   "license": "MIT",
