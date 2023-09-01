@@ -35,4 +35,10 @@ jobs:
         continue-on-error: true
         env:
           CONVENTIONAL_GITHUB_RELEASER_TOKEN: ${{secrets.PROJECT_GITHUB_TOKEN}}
+          
+      - uses: djnicholson/release-action@v2.11
+        with:
+          token: ${{ secrets.PROJECT_GITHUB_TOKEN }}
+          asset-name: 'bundle.js'
+          file: 'dist/bundle.js'
 
