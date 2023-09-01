@@ -34,7 +34,7 @@
 // @match        *://hdmayi.com//*
 // @match        *://pt.msg.vg//*
 // @match        *://*/mybonus.php*
-// @icon         https://p.sda1.dev//*
+// @match         https://p.sda1.dev//*
 // @icon         https://cdn.jsdelivr.net/gh/macheteHot/ptHelper/src/assets/pt.ico
 // @grant        GM.xmlHttpRequest
 // @grant        GM.setValue
