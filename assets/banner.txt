@@ -6,7 +6,7 @@
 // @match        https://dajiao.cyou/*
 // @match        https://www.pttime.org/*
 // @match        https://hdmayi.com/*
-// @icon         https://www.pttime.org/favicon.ico
+// @icon         https://p.sda1.dev/13/b59432c5f1be1f9c81e8377a97cf97e4/pt.jpg
 // @grant        GM.xmlHttpRequest
 // @grant        GM.setValue
 // @grant        GM.getValue
