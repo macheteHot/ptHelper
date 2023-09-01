@@ -1,17 +1,34 @@
 {
   "name": "pt-helper",
-  "version": "1.0.0",
-  "description": "NexusPHP pt website tools",
+  "version": "0.0.2",
+  "description": "油猴脚本 pt 网站的好帮手",
   "main": "src/main.js",
   "type": "module",
-  "packageManager": "pnpm@8.7.1",
   "scripts": {
+    "prepare": "husky install",
     "dev": "npx webpack --watch --mode development",
-    "build": "npx webpack --mode production"
+    "build": "npx webpack --mode production",
+    "release": "npx bumpp package.json --commit --push --tag"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "keywords": [
+    "tampermonkey",
+    "pt"
+  ],
+  "homepage": "https://github.com/macheteHot/ptHelper",
+  "bugs": {
+    "url": "https://github.com/macheteHot/ptHelper/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macheteHot/ptHelper.git"
+  },
+  "author": "Machete <rtpppp163@gmail.com>",
+  "files": [
+    "dist/bundle.js"
+  ],
+  "sideEffects": false,
+  "license": "MIT",
+  "packageManager": "pnpm@8.7.1",
   "devDependencies": {
     "@types/react": "^18.2.21",
     "@types/react-dom": "^18.2.7",
@@ -30,6 +47,8 @@
     "eslint-plugin-promise": "^6.1.1",
     "eslint-plugin-react": "^7.33.2",
     "html-webpack-plugin": "^5.5.3",
+    "husky": "^8.0.3",
+    "lint-staged": "^14.0.1",
     "prettier": "^3.0.3",
     "prettier-eslint": "^15.0.1",
     "react": "^18.2.0",
@@ -45,6 +64,15 @@
   },
   "dependencies": {
     "antd": "^5.8.5",
+    "bumpp": "^9.2.0",
     "dayjs": "^1.11.9"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix"
+    ],
+    "*.{css,less,scss,sass,json}": [
+      "prettier  --write"
+    ]
   }
 }

@@ -22,5 +22,6 @@
     "tampermonkey",
     "tmdb",
     "unocss"
-  ]
+  ],
+  "ignorePaths": ["src/assets/*"]
 }

@@ -1,0 +1,171 @@
+{
+  "[json][jsonc][css][less][scss][markdown]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.exclude": {
+    "**/.git": true,
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "node_modules": true,
+    "dist": false
+  },
+  "files.associations": {
+    "*.css.snap": "css"
+  },
+  "todo-tree.regex.regex": "(?:(?://|#|<!--|;|/\\*\\*?|\\*)\\s*($TAGS)|^\\s*- \\[ \\])",
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "#FFF",
+    "background": "#F1C40F",
+    "icon": "check",
+    "rulerColour": "#F1C40F",
+    "type": "tag",
+    "iconColour": "#F1C40F"
+  },
+  "todo-tree.general.tags": [
+    "TODO",
+    "FIXME",
+    "FIX",
+    "TAG",
+    "NOTE",
+    "todo",
+    "fixme",
+    "fix",
+    "tag",
+    "note"
+  ],
+  "todo-tree.highlights.customHighlight": {
+    "TODO": {
+      "background": "#FF8C00",
+      "rulerColour": "#FF8C00",
+      "iconColour": "#FF8C00"
+    },
+    "FIXME": {
+      "background": "#FF0000",
+      "icon": "beaker",
+      "rulerColour": "#FF0000",
+      "iconColour": "#FF0000"
+    },
+    "FIX": {
+      "background": "#0000FF",
+      "icon": "tag",
+      "rulerColour": "#0000FF",
+      "iconColour": "#0000FF",
+      "rulerLane": "full"
+    },
+    "NOTE": {
+      "background": "#f90",
+      "icon": "note",
+      "rulerColour": "#f90",
+      "iconColour ": "#f90"
+    },
+    "todo": {
+      "background": "#FF8C00",
+      "rulerColour": "#FF8C00",
+      "iconColour": "#FF8C00"
+    },
+    "fixme": {
+      "background": "#FF0000",
+      "icon": "beaker",
+      "rulerColour": "#FF0000",
+      "iconColour": "#FF0000"
+    },
+    "fix": {
+      "background": "#000FFF",
+      "icon": "tag",
+      "rulerColour": "#000FFF",
+      "iconColour": "#000FFF",
+      "rulerLane": "full"
+    },
+    "note": {
+      "background": "#f90",
+      "icon": "note",
+      "rulerColour": "#f90",
+      "iconColour ": "#f90"
+    }
+  },
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": true,
+      "italic": false
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "^",
+      "color": "#EADB67",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "&",
+      "color": "#FC427B",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "?",
+      "color": "#1E90FF",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": true
+    },
+    {
+      "tag": "~",
+      "color": "#D980FA",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    },
+    {
+      "tag": "*",
+      "color": "#61CF45",
+      "strikethrough": false,
+      "underline": false,
+      "backgroundColor": "transparent",
+      "bold": false,
+      "italic": false
+    }
+  ],
+  "emmet.triggerExpansionOnTab": true,
+  "editor.codeActionsOnSave": {
+    // eslint 自动修复
+    "source.fixAll.eslint": true
+  },
+  "javascript.preferences.importModuleSpecifier": "non-relative",
+  "git.ignoreLimitWarning": true,
+  "cSpell.words": ["bumpp", "nesw", "pnpm", "unocss", "vmax", "vmin"]
+}

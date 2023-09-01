@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         ptHelper
 // @namespace    http://tampermonkey.net/
-// @version      0.1
-// @description  pt 网站的好帮手
+// @version      __CHANGE_ME__
+// @description  pt 网站的好帮手 https://github.com/macheteHot/ptHelper
 // @license      MIT
 // @match        *://dajiao.cyou/*
 // @match        *://*.pttime.org/*

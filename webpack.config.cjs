@@ -4,10 +4,13 @@ const path = require('node:path')
 const fs = require('node:fs')
 const UnoCSS = require('@unocss/webpack').default
 const BannerPlugin = require('./banner.cjs')
+const { version } = require('./package.json')
 
-const bannerStr = fs.readFileSync(path.resolve('./assets/banner.txt'), {
-  encoding: 'utf-8',
-})
+const bannerStr = fs
+  .readFileSync(path.resolve('./src/assets/banner.txt'), {
+    encoding: 'utf-8',
+  })
+  .replace('__CHANGE_ME__', version)
 
 module.exports = (env, argv) => {
   return {
