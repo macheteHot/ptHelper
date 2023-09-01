@@ -1,0 +1,50 @@
+{
+  "name": "pt-helper",
+  "version": "1.0.0",
+  "description": "NexusPHP pt website tools",
+  "main": "src/main.js",
+  "type": "module",
+  "packageManager": "pnpm@8.7.1",
+  "scripts": {
+    "dev": "npx webpack --watch --mode development",
+    "build": "npx webpack --mode production"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/react": "^18.2.21",
+    "@types/react-dom": "^18.2.7",
+    "@types/tampermonkey": "^4.20.1",
+    "@typescript-eslint/eslint-plugin": "^6.5.0",
+    "@typescript-eslint/parser": "^6.5.0",
+    "@unocss/webpack": "^0.55.4",
+    "cross-env": "^7.0.3",
+    "css-loader": "^6.8.1",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-config-prettier": "^9.0.0",
+    "eslint-import-resolver-typescript": "^3.6.0",
+    "eslint-plugin-import": "^2.28.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-prettier": "^5.0.0",
+    "eslint-plugin-promise": "^6.1.1",
+    "eslint-plugin-react": "^7.33.2",
+    "html-webpack-plugin": "^5.5.3",
+    "prettier": "^3.0.3",
+    "prettier-eslint": "^15.0.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "style-loader": "^3.3.3",
+    "ts-loader": "^9.4.4",
+    "typescript": "^5.2.2",
+    "unocss": "^0.55.4",
+    "unocss-preset-scalpel": "^1.2.7",
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4",
+    "webpack-sources": "^3.2.3"
+  },
+  "dependencies": {
+    "antd": "^5.8.5",
+    "dayjs": "^1.11.9"
+  }
+}

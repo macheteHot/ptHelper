@@ -1,0 +1,21 @@
+// ==UserScript==
+// @name         ptHelper
+// @namespace    http://tampermonkey.net/
+// @version      0.1
+// @description  try to take over the world!
+// @match        https://dajiao.cyou/*
+// @match        https://www.pttime.org/*
+// @match        https://hdmayi.com/*
+// @icon         https://www.pttime.org/favicon.ico
+// @grant        GM.xmlHttpRequest
+// @grant        GM.setValue
+// @grant        GM.getValue
+// @grant        GM.xmlHttpRequest
+// @grant        GM.getResourceText
+// @grant        GM.addStyle
+// @require      https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/react/18.2.0/umd/react.production.min.js
+// @require      https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/react-dom/18.2.0/umd/react-dom.production.min.js
+// @require      https://cdn.jsdelivr.net/npm/dayjs@1.11.9/dayjs.min.js
+// @require      https://cdn.jsdelivr.net/npm/antd@5.8.5/dist/antd-with-locales.min.js
+// @resource     antdCss https://cdn.jsdelivr.net/npm/antd@5.8.5/dist/reset.min.css
+// ==/UserScript==
