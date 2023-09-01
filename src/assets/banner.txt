@@ -22,7 +22,6 @@
 // @match        *://*.hdzone.me//*
 // @match        *://*.hdatmos.club//*
 // @match        *://*.pt.soulvoice.club//*
-// @match        *://*.pt.soulvoice.club//*
 // @match        *://*.discfan.net//*
 // @match        *://*.hdtime.org//*
 // @match        *://*.nicept.net//*
@@ -36,7 +35,7 @@
 // @match        *://pt.msg.vg//*
 // @match        *://*/mybonus.php*
 // @icon         https://p.sda1.dev//*
-// @icon         https://p.sda1.dev/13/b59432c5f1be1f9c81e8377a97cf97e4/pt.jpg
+// @icon         https://cdn.jsdelivr.net/gh/macheteHot/ptHelper/src/assets/pt.ico
 // @grant        GM.xmlHttpRequest
 // @grant        GM.setValue
 // @grant        GM.getValue

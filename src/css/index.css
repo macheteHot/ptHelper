@@ -1,7 +1,7 @@
 :root {
   --hover-height: #f1c40f;
 }
-.hover-bg-red:hover {
+.hover-bg-red:hover td {
   background-color: var(--hover-height) !important;
 }
 
